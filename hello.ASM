@@ -54,7 +54,7 @@ _start:
 	syscall
 
 ; creating relocatable elf64 object file
-; $ nasm -f elf64 -o hello.o hello.S
+; $ nasm -f elf64 -o hello.o hello.ASM
 
 ; creating executable elf64 linked file
 ; $ ld -o hello hello.o
